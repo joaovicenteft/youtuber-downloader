@@ -7,7 +7,7 @@
     margin-top:40vh;
 }
 
-.URL-input, .convert-button {
+.URL-input, .convert-button, .sound-button {
     font-size:1.3em;
     padding:5px 10px;
 }
@@ -27,6 +27,13 @@
 
 .convert-button {
     border-radius:0px 4px 4px 0px;
+    border:2px solid #0485ff;
+    background: #0485ff;
+    color:white;
+}
+
+.sound-button {
+    border-radius:2px 2px 2px 2px;
     border:2px solid #0485ff;
     background: #0485ff;
     color:white;

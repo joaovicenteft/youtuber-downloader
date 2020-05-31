@@ -19,3 +19,32 @@ app.get('/download', (req, res) => {
         }).pipe(res);
 
 });
+
+app.get('/downloadSound', (req, res) => {
+    var URL = req.query.URL;
+
+    res.header('Content-Disposition', 'attachment; filename="sound.mp3"');
+
+    ytdl(URL, {
+        format: 'mp3'
+    }).pipe(res);
+
+})
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
