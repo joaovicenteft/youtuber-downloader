@@ -3,7 +3,7 @@ Criei meu próprio baixador de vídeos do youtube
 
 
 
-![Screenshot]{youtuber-downloader.png}
+![Screenshot](youtuber-downloader.png)
 
 ##Running docker
 ```
