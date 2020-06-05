@@ -5,11 +5,11 @@ Criei meu próprio baixador de vídeos do youtube
 
 ![Screenshot](youtuber-downloader.png)
 
-## Running docker
+## Building docker
 ```
 docker build -t youtuber-downloader .
 ```
-## Building docker
+## Running docker
 
 ```
 docker run -p 4000:4000 youtuber-downloader
