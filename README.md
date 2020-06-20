@@ -1,5 +1,5 @@
 # youtuber-downloader
-Criei meu próprio baixador de vídeos do youtube
+Criei meu próprio baixador de vídeos do youtube. Intenção de testar configurações de docker, docker-compose, docker-machine e deploy em heroku, firebase e AWS
 
 
 
