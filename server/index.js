@@ -9,6 +9,11 @@ app.listen(4000, () => {
     console.log('Server is working at 4000 port');
 });
 
+app.get('/', (req, res) => {
+
+	res.send('hello world');
+});
+
 app.get('/download', (req, res) => {
     var URL = req.query.URL;
 
